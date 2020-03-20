@@ -11,6 +11,7 @@ qtConfig(eglfs_viv): SUBDIRS += eglfs_viv
 qtConfig(eglfs_rcar): SUBDIRS += eglfs_rcar
 qtConfig(eglfs_viv_wl): SUBDIRS += eglfs_viv_wl
 qtConfig(eglfs_openwfd): SUBDIRS += eglfs_openwfd
+qtConfig(eglfs_brcmstb): SUBDIRS += eglfs_brcmstb
 qtConfig(opengl): SUBDIRS += eglfs_emu
 
 eglfs_kms_egldevice.depends = eglfs_kms_support
